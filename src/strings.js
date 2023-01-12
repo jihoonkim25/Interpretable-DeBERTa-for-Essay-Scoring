@@ -1,0 +1,11 @@
+const STRING_CONSTANTS = {
+    DEMO_WRITING1 : 'when a person has no experience on a job, their is always going to be good people to help you and try to explane the job you need to get done. In life you were not born knowing everything. Life is bassicly about learing new things every single day even without experience because life is simple. We must live happy with the people we love.',
+    DEMO_WRITING2 : 'When a person thinks they know everything in life they dont do good because they trying to make other people feel less then others. you must be kind to those the dont have experience because you may not know if some day you will go to a different country. You wont know anyting because you not from their, so you going to need help from others to explain the culture or how to eat food because you have no experience on the new country.',
+    DEMO_WRITING3 : 'You must help a person who has no experience because you may need help from the person the you didnt want to help. Even thought you may not have experience in the type of job you seek, you can learn and teach others. If you dont have experence in a restaurant for the job you seek, you will learn. For example a person that has no experence working in a restaurant can start as a dishwasher.',
+    DEMO_WRITING4 : 'In a job there is always going to be people that dont want to see you in a better place because they may think you dont deserve to be there. You the only one the knows how hard you work to achieve your dream. In life you always going to have to proof how good you are to learn a new job in the kitchen so if you can you should learn quick. They can give you a good place for you learn from others that has experience.',
+    MODEL_NAME : 'English Writing Helper',
+    STUDY_DESCRIPTION: 'Welcome to our study! Please check the box below if you agree to participate in an experiment with our English Writing Helper prototype and allow us to collect data on your experience. Your participation will be anonymous.',
+}
+
+
+export default STRING_CONSTANTS;

@@ -1,0 +1,158 @@
+.column-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.writingbox{
+  text-align: left;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue {
+  background-color: #a3daff;
+}
+
+.red {
+  background-color: #ffc9c9;
+}
+
+.yellow {
+  background-color: #ffec99;
+}
+
+.purple {
+  background-color: #e49eea;
+}
+
+.orange {
+  background-color: #E39264;
+}
+
+.gray {
+  background-color: #d1d1d1
+}
+
+.clear {
+  background-color: transparent;
+}
+
+.prediction-container{
+    text-align: left;
+    font-size: 16px;
+    width: 75%;
+    background-color: rgba(216, 160, 55, 0.632);
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  
+  .modal_content {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  .close {
+    color: Black;
+    float: right;
+  }
+  
+  .close:hover {
+    color: cyan;
+    cursor: pointer;
+  }
+
+  table {
+    border: 2px solid rgb(0, 0, 0);
+    width: 70%;
+    height: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th {
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-row {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 100px;
+  }
+    
+  .score {
+    font-size: x-large;
+    width: 800px;
+    height: 50px;
+  }
+
+  .rubric {
+    margin-top: 50px;
+    text-align: bottom;
+    font-size: small;
+    font-weight: normal;
+    width: 800px;
+    height: 200px;
+  }
+
+  .public-DraftEditorPlaceholder-inner {
+    color: darkslategray;
+    height: 0px;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+  }
+
+  .notranslate {
+    border: 1px solid black;
+    height: 200px !important;
+    overflow: scroll;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+  }
+
+  .inputbox{
+    text-align: left;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .correctionsbox{
+    text-align: left;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    overflow: scroll;
+  }
+
+  .twoColumn {
+    display: flex;
+    justify-content: space-evenly;
+  }
