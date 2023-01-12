@@ -20,7 +20,12 @@ Inference was run over multiple text passages from the test-set of the ELL datas
 You can directly clone this repository and follow these steps to launch the web application. 
 
 ### Prerequisites
-First, you need to install NodeJS and NPM from the website: [https://nodejs.org/en/](https://nodejs.org/en/). 
+First, you need to install NodeJS and NPM from the website: [https://nodejs.org/en/](https://nodejs.org/en/).
+
+Text area highlighting is done using the react-highlight-within-textarea package found here: [https://www.npmjs.com/package/react-highlight-within-textarea](https://www.npmjs.com/package/react-highlight-within-textarea).
+```sh
+   npm install --save react-highlight-within-textarea draft-js
+```
 
 ### Installation
 1. Install all the packages neeeded for the frontend. Run the following line in the project directory. This will create a folder called node_modules
@@ -60,9 +65,3 @@ First, you need to install NodeJS and NPM from the website: [https://nodejs.org/
 **Note**: You can open the browser console (right click-Inspect-Console) to visualize log messages or errors from the frontend. 
 
 The application supports two tasks (chosen randomly). If you want to learn how to send data to the backend, you should follow the process in task 1 at: [http://localhost:3000/#/Main1](http://localhost:3000/#/Main1).
-
-## Installations
-Text area highlighting is done using the react-highlight-within-textarea package found here: [https://www.npmjs.com/package/react-highlight-within-textarea](https://www.npmjs.com/package/react-highlight-within-textarea).
-```sh
-   npm install --save react-highlight-within-textarea draft-js
-```
